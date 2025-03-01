@@ -1,4 +1,4 @@
-# my-vscode-theme/my-vscode-theme/README.md
+# minimal-theme/my-vscode-theme/README.md
 
 # My VSCode Theme
 
