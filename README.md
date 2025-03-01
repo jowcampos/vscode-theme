@@ -1,6 +1,6 @@
 # minimal-theme/my-vscode-theme/README.md
 
-# My VSCode Theme
+# Minimal VSCode Theme
 
 This is a custom theme for Visual Studio Code designed to provide a clean and modern look for your coding environment.
 
