@@ -1,0 +1,27 @@
+{
+  "name": "my-vscode-theme",
+  "displayName": "My VSCode Theme",
+  "description": "A custom theme for Visual Studio Code.",
+  "version": "1.0.0",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "My Theme",
+        "uiTheme": "vs",
+        "path": "./themes/my-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "echo 'No compile step required.'"
+  },
+  "devDependencies": {}
+}
