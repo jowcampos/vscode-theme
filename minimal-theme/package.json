@@ -1,0 +1,31 @@
+{
+  "name": "minimal-theme",
+  "displayName": "Minimal Theme",
+  "description": "A minimalistic theme for code editors.",
+  "version": "0.1.0",
+  "publisher": "your-username",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Minimal Theme",
+        "uiTheme": "vs",
+        "path": "./themes/minimal-theme-color-theme.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "echo 'No compilation needed'",
+    "watch": "echo 'No watch needed'",
+    "postinstall": "node ./postinstall.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
